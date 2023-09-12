@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body{
+    background-color: rgb(29, 120, 108);
+}
+
+#convert{
+    margin-top: 10px;
+    background-color: rgb(240, 243, 244);
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: relative;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap; 
+}
+
+#clear{
+    margin-top: 10px;
+    background-color: rgb(240, 243, 244);
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: relative;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap; 
+}
+
+#convert:hover{
+    background-color: rgb(191, 99, 99);
+}
+
+#clear:hover{
+    background-color: rgb(191, 99, 99);
+}
+
+h1{
+    margin-top: 10%;
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    gap: 10px;
+}
+
+.Temperature-icon img{
+    width: 50px;
+    height: 50px;
+    padding-top: 120px;
+    margin-left: 10px;
+    mix-blend-mode: multiply;
+}
+
+input{
+    display: block;
+    padding: 20px;
+    margin: 20px;
+    margin-top: 10px;
+    font-size: 1em;
+    color: #131313;
+}
+
+::-webkit-input-placeholder{
+    color: #ccc;
+}
+
+::-ms-input-placeholder{
+    color: #ccc;
+}
